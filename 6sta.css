@@ -1,0 +1,186 @@
+#sta-6-main {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#sta-6-main tr td {
+    padding: 0;
+    position: relative;
+}
+
+tr.sta-6-line {
+    height: 20px;
+}
+
+tr.sta-6-name,
+td.sta-6-name {
+    height: 100px;
+    font-family: 'Noto Sans JP';
+}
+
+tr.sta-6-no {
+    height: 15px;
+}
+
+td.sta-6-no, td-sta-center {
+    line-height: 15px;
+    font-size: 0.7rem;
+    text-align: center;
+    font-family: 'Noto Sans JP';
+}
+
+td.sta-6-leftedge, td.sta-6-rightedge {
+    width: 20px;
+}
+
+td.sta-6-left, td.sta-6-right {
+    width: 25px;
+}
+
+td.sta-6-center {
+    width: 50px;
+}
+
+td.sta-6-center.sta-6-name {
+    writing-mode: vertical-rl;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    text-align: end;
+    font-weight: 600;
+}
+
+td.sta-6-center.sta-6-name.sta-pass,
+td.sta-6-right.sta-6-name.sta-pass {
+    color: #999;
+}
+
+td.sta-6-right.sta-6-name > span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    height: 100%; width: 100%;
+}
+
+td.sta-6-right.sta-6-name > span.en {
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    text-align: end;
+}
+td.sta-6-right.sta-6-name span.zh, td.sta-6-right.sta-6-name span.ko {
+    writing-mode: vertical-rl;
+    text-align: end;
+}
+
+.sta-6-name-inner {
+    text-align: center;
+    margin: 0 0 0 auto;
+    position: absolute;
+    bottom: 0;
+    transform-origin: bottom;
+}
+
+.line-none {
+    background: unset;
+}
+.line-passed {
+    background: linear-gradient(#999, 75%, #666);
+}
+.line-subway {
+    background: linear-gradient(var(--subway-color), 75%, #005C2F);
+}
+.line-hokushin {
+    background: linear-gradient(var(--hokushin-color), 75%, #823C1E);
+}
+.line-hk-kobe {
+    background: linear-gradient(var(--hk-kobe-color), 75%, #00457D);
+}
+.line-hk-takarazuka {
+    background: linear-gradient(var(--hk-takarazuka-color), 75%, #BA4502);
+}
+.line-hk-kyoto {
+    background: linear-gradient(var(--hk-kyoto-color), 75%, #157D11);
+}
+.line-nose {
+    background: linear-gradient(#4DB063, 75%, var(--nose-color));
+}
+.line-sakaisuji {
+    background: linear-gradient(var(--sakaisuji-color), 75%, #6E4434);
+}
+
+.sta-6-line-center-left, .sta-6-line-center-right {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    display: inline-block;
+    top: 0;
+}
+.sta-6-line-center-left {
+    left: 0;
+}
+.sta-6-line-center-right {
+    left: 25px;
+}
+
+td.sta-6-left.sta-6-line.line-edge,
+t#sta-6-line-leftedge-0.line-edge {
+    border-radius: 25px 0 0 25px;
+}
+td.sta-6-right.sta-6-line.line-edge,
+#sta-6-line-rightedge-5.line-edge {
+    border-radius: 0 25px 25px 0;
+}
+td.sta-6-left.sta-6-line.line-arrow,
+#sta-6-line-leftedge-0.line-arrow {
+    clip-path: polygon(40% 0%, 100% 0%, 100% 100%, 40% 100%, 0% 50%);
+}
+td.sta-6-right.sta-6-line.line-arrow,
+#sta-6-line-rightedge-5.line-edge {
+    clip-path: polygon(60% 0%, 0% 0%, 0% 100%, 60% 100%, 100% 50%);
+}
+
+.sta-6-line-center-sta.sta-stop {
+    display: inline-block;
+    position: absolute;
+    height: 70%;
+    width: 50%;
+    background-color: #f7f7f7;
+    top: 15%;
+    left: 25%;
+}
+
+.sta-6-line-center-sta.sta-pass {
+    display: inline-block;
+    position: absolute;
+    height: 70%;
+    width: 50%;
+    background-color: #f7f7f7;
+    top: 15%;
+    left: 25%;
+    clip-path: polygon(30% 0%, 50% 0%, 75% 50%, 50% 100%, 30% 100%, 55% 50%);
+}
+
+.arrow {
+    display: inline-block;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+}
+
+.sta-6-arrow {
+    position: absolute;
+    top: 115px;
+    left: 10px;
+}
+  
+.sta-6-name-right > span {
+    display: inline-block;
+    transform: translateX(-3px);
+}
+
+.sta-6-line-center-sta {
+    text-align: center;
+    line-height: 15px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}

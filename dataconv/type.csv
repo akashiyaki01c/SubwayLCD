@@ -1,0 +1,23 @@
+00									無表示
+01	普通	普通	ふつう	Local	Local	慢车	일반	Local	普通
+02	準急	準急	じゅんきゅう	Semi-Express	Semi-Exp.	准快车	준급	SemiExp	準急
+03	通勤準急	通準	つうきんじゅんきゅう	Commuter Semi-Express	Semi-Exp.	通勤准快车	통근준급	SemiExp	通勤準急
+04	臨時準急	臨準	りんじじゅんきゅう	Semi-Express	Semi-Exp.	准快车	준급	SemiExp	臨時準急
+05	急行	急行	きゅうこう	Express	Express	快车	급행	Express	急行
+06	通勤急行	通急	つうきんきゅうこう	Commuter Express	Express	通勤快车	통근급행	Express	通勤急行
+07	臨時急行	臨急	りんじきゅうこう	Express	Express	快车	급행	Express	臨時急行
+08	快速急行	快急	かいそくきゅうこう	Rapid-Express	Rapid Exp.	快速快车	쾌속급행	Express	快速急行
+09	臨時快急	快急	りんじかいそくきゅうこう	Rapid-Express	Rapid Exp.	快速快车	쾌속급행	Express	臨時快速急行
+10	準特急	準特	じゅんとっきゅう	Semi-Limited Exp.	Ltd Exp.	准特快车	준특급	LtdExp	準特急
+11	特急	特急	とっきゅう	Limited Exp.	Ltd Exp.	特快车	특급	LtdExp	特急
+12	通勤特急	通特	つうきんとっきゅう	Commuter Limited Exp.	Ltd Exp.	通勤特快车	통근특급	LtdExp	通勤特急
+13	臨時特急	臨特	りんじとっきゅう	Limited Exp.	Ltd Exp.	特快车	특급	LtdExp	臨時特急
+14	直通特急	直特	ちょくつうとっきゅう	Direct Limited Exp.	Ltd Exp.	直达特快车	직통특급	LtdExp	直通特急
+15	快速特急	快特	かいそくとっきゅう	Rapid-Limited Exp.	Ltd Exp.	快速特快车	쾌속특급	LtdExp	快速特急
+16	快速	快速	かいそく	Rapid Service	Rapid	快车	쾌속	Rapid	阪急快速
+17	快速	快速	かいそく	Rapid Service	Rapid	快车	쾌속	LtdExp	市交快速
+81	回送	回送	かいそう	Out of Service	Out of Service			OutOfService	回送
+82	試運転	試運	しうんてん	Out of Service	Out of Service			OutOfService	試運転
+83	貸切	貸切	かしきり	Reserved	Reserved			OutOfService	貸切
+84	臨時	臨時	りんじ	Extra	Extra			OutOfService	臨時
+85	救援	救援	きゅうえん	Out of Service	Out of Service			OutOfService	救援

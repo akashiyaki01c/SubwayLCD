@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex" />
+    <link rel="stylesheet" href="./upper-style.css">
+    <link rel="stylesheet" href="./lower-style.css">
+    <link rel="stylesheet" href="./animation.css">
+    <style>
+      :root {
+        background-color: black;
+      }
+
+      main {
+        height: 360px;
+        width: 640px;
+        white-space: nowrap;
+        perspective: 20px;
+        margin: auto;
+      }
+
+      .ja, .kt { font-family: "源ノ角ゴシック"; }
+      .en { font-family: "源ノ角ゴシック"; }
+      .zh { font-family: "Source Han Sans SC";}
+      .ko { font-family: "Source Han Sans K"; }
+
+      .hidden {
+        display: none;
+      }
+
+      form {
+        background-color: #333;
+        color: white;
+        height: fit-content;
+        width: 200px;
+        margin: auto;
+        margin-top: 20px;
+      }
+
+      #form-start, #form-end, #form-pos, #form-type {
+        width: 5ch;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <img src="./lcd.png" height="360" width="640" style="position: absolute; top: 0; left: 0;"> -->
+    <main>
+      <div id="upper-main"><!-- 上半分 -->
+        <div id="dest">
+          <!-- <span style="font-size: 0.8rem;">三宮・新神戸方面</span> 谷上ゆき -->
+          <span id="dest-ja" class="ja">名谷ゆき</span>
+          <span id="dest-en" class="en">For Myodani</span>
+          <span id="dest-kt" class="kt">名谷ゆき</span>
+          <span id="dest-zh" class="zh">开往 名谷</span>
+          <span id="dest-ko" class="ko">묘다니 행</span>
+        </div>
+        <div id="cars-number" class="en">6</div>
+        <div id="cars-number-info">
+          <span id="carinfo-ja" class="ja">号車</span>
+          <!-- <span id="carinfo-en" class="en">Car No.</span> -->
+          <span id="carinfo-kt" class="ja">号車</span>
+          <span id="carinfo-zh" class="zh">号车厢</span>
+          <span id="carinfo-ko" class="ko">호차</span>
+        </div>
+        <div class="next-info">
+          <div class="next-str">
+            <div style="position: relative; width: 100px; height: 60px;">
+              <span id="next-str-ja" class="ja">つぎは</span>
+              <span id="next-str-en" class="en">Next</span>
+              <span id="next-str-kt" class="kt">つぎは</span>
+              <span id="next-str-zh" class="zh">下一站</span>
+              <span id="next-str-ko" class="ko">다음은</span>
+            </div>
+          </div>
+          <div class="nextnumber-outer">
+            <span id="next-sta-no" class="nextnumber-inner en subway">S13</span>
+          </div>
+          <div class="nextsta-outer">
+            <span id="next-sta-ja" class="nextsta-inner ja">総合運動公園</span>
+            <span id="next-sta-en" class="nextsta-inner en">
+              <span style="display: inline-block; transform: scaleX(0.85); transform-origin: left;">Sogoundokoen</span>
+            </span>
+            <span id="next-sta-kt" class="nextsta-inner kt">
+              <span style="display: inline-block; transform: scaleX(0.6); transform-origin: left; letter-spacing: -7px;">そうごううんどうこうえん</span>
+            </span>
+            <span id="next-sta-zh" class="nextsta-inner zh">綜合运动公园</span>
+            <span id="next-sta-ko" class="nextsta-inner ko">소고운도코엔</span>
+          </div>
+        </div>
+      </div>
+      <div class="subname-outer">
+        <div class="subname-inner">
+          <span id="subname-ja">シャルレ本社前</span>
+          <span id="subname-kt">しゃるれほんしゃまえ</span>
+        </div>
+      </div>
+      <div class="down-main">
+        <div style="height: 112.5px; width: 100%;">
+          <div class="station" style="left: 50px;">
+            <div class="station-info">
+              <div class="station-name">
+                <div id="station-1-ja" class="station-ja ja">名　谷</div>
+                <div class="station-other">
+                  <div id="station-1-en" class="station-en en">Myodani</div>
+                  <div id="station-1-zh" class="station-zh zh">名　谷</div>
+                  <div id="station-1-ko" class="station-ko ko">묘다니</div>
+                </div>
+              </div>
+            </div>
+            <div id="station-1-no" class="stanumber en">S12</div>
+          </div>
+          <div class="station" style="left: 148px;">
+            <div class="station-info">
+              <div class="station-name">
+                <div id="station-2-ja" class="station-ja ja">総合　　<br>運動公園</div>
+                <div class="station-other">
+                  <div id="station-2-en" class="station-en en">Sogoundokoen</div>
+                  <div id="station-2-zh" class="station-zh zh">綜合运动公园</div>
+                  <div id="station-2-ko" class="station-ko ko">소고운도코엔</div>
+                </div>
+              </div>
+            </div>
+            <div id="station-2-no" class="stanumber en">S13</div>
+          </div>
+          <div class="station" style="left: 246px;">
+            <div class="station-info">
+              <div class="station-name">
+                <div id="station-3-ja" class="station-ja">学園都市</div>
+                <div class="station-other">
+                  <div id="station-3-en" class="station-en en">Gakuentoshi</div>
+                  <div id="station-3-zh" class="station-zh zh">学园都市</div>
+                  <div id="station-3-ko" class="station-ko ko">가쿠엔토시</div>
+                </div>
+              </div>
+            </div>
+            <div id="station-3-no" class="stanumber en">S14</div>
+          </div>
+          <div class="station" style="left: 344px;">
+            <div class="station-info">
+              <div class="station-name">
+                <div id="station-4-ja" class="station-ja">伊川谷</div>
+                <div class="station-other">
+                  <div id="station-4-en" class="station-en en">Ikawadani</div>
+                  <div id="station-4-zh" class="station-zh zh">伊川谷</div>
+                  <div id="station-4-ko" class="station-ko ko">이카와다니</div>
+                </div>
+              </div>
+            </div>
+            <div id="station-4-no" class="stanumber en">S15</div>
+          </div>
+          <div class="station" style="left: 442px;">
+            <div class="station-info">
+              <div class="station-name">
+                <div id="station-5-ja" class="station-ja">西神南</div>
+                <div class="station-other">
+                  <div id="station-5-en" class="station-en en">Seishin-Minami</div>
+                  <div id="station-5-zh" class="station-zh zh">西神南</div>
+                  <div id="station-5-ko" class="station-ko ko">세이신미나미</div>
+                </div>
+              </div>
+            </div>
+            <div id="station-5-no" class="stanumber en">S16</div>
+          </div>
+          <div class="station" style="left: 540px;">
+            <div class="station-info">
+              <div class="station-name">
+                <div id="station-6-ja" class="station-ja">西神中央</div>
+                <div class="station-other">
+                  <div id="station-6-en" class="station-en en">Seishin-Chuo</div>
+                  <div id="station-6-zh" class="station-zh zh">西神中央</div>
+                  <div id="station-6-ko" class="station-ko ko">세이신추오</div>
+                </div>
+              </div>
+            </div>
+            <div id="station-6-no" class="stanumber en">S17</div>
+          </div>
+        </div>
+        <div class="line-outer">
+          <div id="line-1-0" class="line-left">
+            <div id="line-1-0-0" class="line-sta-half"></div>
+            <div id="line-1-0-1" class="line-sta-half"></div>
+          </div>
+          <div class="line-sta">
+            <div id="line-1-1" class="line-sta-half"></div>
+            <div id="line-1-2" class="line-sta-half"></div>
+            <div class="minute en">
+              
+            </div>
+          </div>
+          <div class="line-between">
+            <div id="line-1-3" class="line-half"></div>
+            <div id="line-2-0" class="line-half"></div>
+          </div>
+          <div class="line-sta">
+            <div id="line-2-1" class="line-sta-half"></div>
+            <div id="line-2-2" class="line-sta-half"></div>
+            <div class="minute en">
+              
+            </div>
+          </div>
+          <div class="line-between">
+            <div id="line-2-3" class="line-half"></div>
+            <div id="line-3-0" class="line-half "></div>
+          </div>
+          <div class="line-sta">
+            <div id="line-3-1" class="line-sta-half"></div>
+            <div id="line-3-2" class="line-sta-half"></div>
+            <div class="minute en"></div>
+          </div>
+          <div class="line-between">
+            <div id="line-3-3" class="line-half "></div>
+            <div id="line-4-0" class="line-half "></div>
+          </div>
+          <div class="line-sta">
+            <div id="line-4-1" class="line-sta-half"></div>
+            <div id="line-4-2" class="line-sta-half"></div>
+            <div class="minute en"></div>
+          </div>
+          <div class="line-between">
+            <div id="line-4-3" class="line-half "></div>
+            <div id="line-5-0" class="line-half "></div>
+          </div>
+          <div class="line-sta">
+            <div id="line-5-1" class="line-sta-half"></div>
+            <div id="line-5-2" class="line-sta-half"></div>
+            <div class="minute en"></div>
+          </div>
+          <div class="line-between">
+            <div id="line-5-3" class="line-half "></div>
+            <div id="line-6-0" class="line-half "></div>
+          </div>
+          <div class="line-sta">
+            <div id="line-6-1" class="line-sta-half"></div>
+            <div id="line-6-2" class="line-sta-half"></div>
+            <div class="minute en"></div>
+          </div>
+          <div id="line-6-3" class="line-right">
+            <div id="line-6-3-0" class="line-sta-half"></div>
+            <div id="line-6-3-1" class="line-sta-half-nocolor">
+              <div id="line-6-3-1-arrow">
+                <svg viewBox="0,0,128,100" width="32" height="25">
+                  <polygon points="0,0 50,0 100,50 50,100 0,100" stroke-linecap="square" fill="#077" />
+                </svg>
+              </div>
+            </div>
+          </div> <!-- 右端 -->
+          <div>
+            <div id="arrow-0">
+              <div class="arrow" style="top: 0; left: 21px;">
+                <svg viewBox="0,0,100,100" width="25" height="25">
+                  <polygon points="100,50 50,100 0,100 50,50 0,0 50,0" stroke="white" stroke-width="4" stroke-linecap="square" fill="blue" />
+                </svg>
+              </div>
+              <div class="arrow arrow-red" style="top: 0; left: 21px;">
+                <svg viewBox="0,0,100,100" width="25" height="25">
+                  <polygon points="100,50 50,100 0,100 50,50 0,0 50,0" stroke="white" stroke-width="4" stroke-linecap="square" fill="red" />
+                </svg>
+              </div>
+            </div>
+            <div id="arrow-1">
+              <div class="arrow" style="top: 0; left: 62px;">
+                <svg viewBox="0,0,100,100" width="25" height="25">
+                  <polygon points="100,50 50,100 0,100 50,50 0,0 50,0" stroke="white" stroke-width="4" stroke-linecap="square" fill="blue" />
+                </svg>
+              </div>
+              <div class="arrow arrow-red" style="top: 0; left: 62px;">
+                <svg viewBox="0,0,100,100" width="25" height="25">
+                  <polygon points="100,50 50,100 0,100 50,50 0,0 50,0" stroke="white" stroke-width="4" stroke-linecap="square" fill="red" />
+                </svg>
+              </div>
+            </div>
+            <div id="arrow-2">
+              <div class="arrow" style="top: 0; left: 111px;">
+                <svg viewBox="0,0,100,100" width="25" height="25">
+                  <polygon points="100,50 50,100 0,100 50,50 0,0 50,0" stroke="white" stroke-width="4" stroke-linecap="square" fill="blue" />
+                </svg>
+              </div>
+              <div class="arrow arrow-red" style="top: 0; left: 111px;">
+                <svg viewBox="0,0,100,100" width="25" height="25">
+                  <polygon points="100,50 50,100 0,100 50,50 0,0 50,0" stroke="white" stroke-width="4" stroke-linecap="square" fill="red" />
+                </svg>
+              </div>
+            </div>
+            <div id="arrow-3">
+              <div class="arrow" style="top: 0; left: 160px;">
+                <svg viewBox="0,0,100,100" width="25" height="25">
+                  <polygon points="100,50 50,100 0,100 50,50 0,0 50,0" stroke="white" stroke-width="4" stroke-linecap="square" fill="blue" />
+                </svg>
+              </div>
+              <div class="arrow arrow-red" style="top: 0; left: 160px;">
+                <svg viewBox="0,0,100,100" width="25" height="25">
+                  <polygon points="100,50 50,100 0,100 50,50 0,0 50,0" stroke="white" stroke-width="4" stroke-linecap="square" fill="red" />
+                </svg>
+              </div>
+            </div>
+            <div id="arrow-4">
+              <div class="arrow" style="top: 0; left: 209px;">
+                <svg viewBox="0,0,100,100" width="25" height="25">
+                  <polygon points="100,50 50,100 0,100 50,50 0,0 50,0" stroke="white" stroke-width="4" stroke-linecap="square" fill="blue" />
+                </svg>
+              </div>
+              <div class="arrow arrow-red" style="top: 0; left: 209px;">
+                <svg viewBox="0,0,100,100" width="25" height="25">
+                  <polygon points="100,50 50,100 0,100 50,50 0,0 50,0" stroke="white" stroke-width="4" stroke-linecap="square" fill="red" />
+                </svg>
+              </div>
+            </div>
+            <div id="arrow-5">
+              <div class="arrow" style="top: 0; left: 258px;">
+                <svg viewBox="0,0,100,100" width="25" height="25">
+                  <polygon points="100,50 50,100 0,100 50,50 0,0 50,0" stroke="white" stroke-width="4" stroke-linecap="square" fill="blue" />
+                </svg>
+              </div>
+              <div class="arrow arrow-red" style="top: 0; left: 258px;">
+                <svg viewBox="0,0,100,100" width="25" height="25">
+                  <polygon points="100,50 50,100 0,100 50,50 0,0 50,0" stroke="white" stroke-width="4" stroke-linecap="square" fill="red" />
+                </svg>
+              </div>
+            </div>
+            <div id="arrow-6">
+              <div class="arrow" style="top: 0; left: 307px;">
+                <svg viewBox="0,0,100,100" width="25" height="25">
+                  <polygon points="100,50 50,100 0,100 50,50 0,0 50,0" stroke="white" stroke-width="4" stroke-linecap="square" fill="blue" />
+                </svg>
+              </div>
+              <div class="arrow arrow-red" style="top: 0; left: 307px;">
+                <svg viewBox="0,0,100,100" width="25" height="25">
+                  <polygon points="100,50 50,100 0,100 50,50 0,0 50,0" stroke="white" stroke-width="4" stroke-linecap="square" fill="red" />
+                </svg>
+              </div>
+            </div>
+            <div id="arrow-7">
+              <div class="arrow" style="top: 0; left: 356px;">
+                <svg viewBox="0,0,100,100" width="25" height="25">
+                  <polygon points="100,50 50,100 0,100 50,50 0,0 50,0" stroke="white" stroke-width="4" stroke-linecap="square" fill="blue" />
+                </svg>
+              </div>
+              <div class="arrow arrow-red" style="top: 0; left: 356px;">
+                <svg viewBox="0,0,100,100" width="25" height="25">
+                  <polygon points="100,50 50,100 0,100 50,50 0,0 50,0" stroke="white" stroke-width="4" stroke-linecap="square" fill="red" />
+                </svg>
+              </div>
+            </div>
+            <div id="arrow-8">
+              <div class="arrow" style="top: 0; left: 405px;">
+                <svg viewBox="0,0,100,100" width="25" height="25">
+                  <polygon points="100,50 50,100 0,100 50,50 0,0 50,0" stroke="white" stroke-width="4" stroke-linecap="square" fill="blue" />
+                </svg>
+              </div>
+              <div class="arrow arrow-red" style="top: 0; left: 405px;">
+                <svg viewBox="0,0,100,100" width="25" height="25">
+                  <polygon points="100,50 50,100 0,100 50,50 0,0 50,0" stroke="white" stroke-width="4" stroke-linecap="square" fill="red" />
+                </svg>
+              </div>
+            </div>
+            <div id="arrow-9">
+              <div class="arrow" style="top: 0; left: 454px;">
+                <svg viewBox="0,0,100,100" width="25" height="25">
+                  <polygon points="100,50 50,100 0,100 50,50 0,0 50,0" stroke="white" stroke-width="4" stroke-linecap="square" fill="blue" />
+                </svg>
+              </div>
+              <div class="arrow arrow-red" style="top: 0; left: 454px;">
+                <svg viewBox="0,0,100,100" width="25" height="25">
+                  <polygon points="100,50 50,100 0,100 50,50 0,0 50,0" stroke="white" stroke-width="4" stroke-linecap="square" fill="red" />
+                </svg>
+              </div>
+            </div>
+            <div id="arrow-10">
+              <div class="arrow" style="top: 0; left: 503px;">
+                <svg viewBox="0,0,100,100" width="25" height="25">
+                  <polygon points="100,50 50,100 0,100 50,50 0,0 50,0" stroke="white" stroke-width="4" stroke-linecap="square" fill="blue" />
+                </svg>
+              </div>
+              <div class="arrow arrow-red" style="top: 0; left: 503px;">
+                <svg viewBox="0,0,100,100" width="25" height="25">
+                  <polygon points="100,50 50,100 0,100 50,50 0,0 50,0" stroke="white" stroke-width="4" stroke-linecap="square" fill="red" />
+                </svg>
+              </div>
+            </div>
+            <div id="arrow-11">
+              <div class="arrow" style="top: 0; left: 552px;">
+                <svg viewBox="0,0,100,100" width="25" height="25">
+                  <polygon points="100,50 50,100 0,100 50,50 0,0 50,0" stroke="white" stroke-width="4" stroke-linecap="square" fill="blue" />
+                </svg>
+              </div>
+              <div class="arrow arrow-red" style="top: 0; left: 552px;">
+                <svg viewBox="0,0,100,100" width="25" height="25">
+                  <polygon points="100,50 50,100 0,100 50,50 0,0 50,0" stroke="white" stroke-width="4" stroke-linecap="square" fill="red" />
+                </svg>
+              </div>
+            </div>
+            <div id="arrow-12">
+              <div class="arrow" style="top: 0; left: 601px;">
+                <svg viewBox="0,0,100,100" width="25" height="25">
+                  <polygon points="100,50 50,100 0,100 50,50 0,0 50,0" stroke="white" stroke-width="4" stroke-linecap="square" fill="blue" />
+                </svg>
+              </div>
+              <div class="arrow arrow-red" style="top: 0; left: 601px;">
+                <svg viewBox="0,0,100,100" width="25" height="25">
+                  <polygon points="100,50 50,100 0,100 50,50 0,0 50,0" stroke="white" stroke-width="4" stroke-linecap="square" fill="red" />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="shadow"></div> -->
+        </div>
+        <div class="remarks">
+          <div class="ja">標準の所要時間です</div>
+          <div class="en">Estimated time required</div>
+        </div>
+      </div>
+    </main>
+    <form id="form">
+      <label>始発駅</label>
+      <input id="form-start" type="number" placeholder="駅番号"><br>
+      <label>行先駅</label>
+      <input id="form-end" type="number" placeholder="駅番号"><br>
+      <label>駅一覧</label>
+      <input id="form-stas" type="text" placeholder="駅一覧"><br>
+      <label>現在駅位置</label>
+      <input id="form-pos" name="pos" type="number" placeholder="始発からのインデックス" /><br>
+      <label>現在状態</label>
+      <input id="form-type" name="pos" type="number" placeholder="0:停車中 1:次は 2:まもなく" /><br>
+      <input onclick="_onclick();" type="button" value="更新" />
+      <input onclick="_changeValue(); _onclick();" type="button" value="自動的に更新" />
+    </form>
+    <script src="./data.js"></script>
+    <script src="./func.js"></script>
+  </body>
+</html>

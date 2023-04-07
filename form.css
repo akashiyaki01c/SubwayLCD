@@ -1,0 +1,32 @@
+textarea {
+    resize: none;
+    width: 4em;
+    font-family: monospace;
+}
+
+label {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.lcd-form input[type="text"] {
+    width: 4em;
+    font-family: monospace;
+}
+
+.form {
+    width: fit-content;
+    margin: auto;
+    border: 1px solid black;
+    padding: 1em;
+    margin-top: 50px;
+}
+
+#linecolor {
+    width: 10em;
+}
+
+form th {
+    font-weight: normal;
+}

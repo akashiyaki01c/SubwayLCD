@@ -1,0 +1,16 @@
+.lower-main {
+    height: 67%;
+    background-color: #f7f7f7;
+    position: relative;
+}
+
+.lower-display {
+    position: absolute;
+    height: 100%; width: 100%;
+    top: 0; left: 0;
+}
+
+#sta-6-main {
+    margin: 0; pad: 0;
+    width: 100%; height: 100%;
+}

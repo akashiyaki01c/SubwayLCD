@@ -1,0 +1,38 @@
+:root {
+    --local-color: #231814;
+    --local-color-light: #3A2822;
+    --semi-exp-color: #009d6b;
+    --semi-exp-color-light: #00d18e;
+    --express-color: #f7ab00;
+    --express-color-light: #ffbe28;
+    --ltd-exp-color: #eb5404;
+    --ltd-exp-color-light: #fb7126;
+}
+
+.type-outer {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    font-size: 1.3rem;
+    border-radius: 5px;
+}
+
+.type-outer.type-local {
+    background: linear-gradient(var(--local-color-light), 30%, var(--local-color), 70%, var(--local-color-light));
+    color: white;
+}
+
+.type-outer.type-semi-exp {
+    background: linear-gradient(var(--semi-exp-color-light), 30%, var(--semi-exp-color), 70%, var(--semi-exp-color-light));
+    color: white;
+}
+
+.type-outer.type-express {
+    background: linear-gradient(var(--express-color-light), 30%, var(--express-color), 70%, var(--express-color-light));
+    color: black;
+}
+
+.type-outer.type-ltd-exp {
+    background: linear-gradient(var(--ltd-exp-color-light), 30%, var(--ltd-exp-color), 70%, var(--ltd-exp-color-light));
+    color: white;
+}

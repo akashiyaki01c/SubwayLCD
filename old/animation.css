@@ -1,0 +1,172 @@
+/*
+time  total
+2.5秒   0   日本語
+0.5秒   2.5 日本語→英語
+1  秒   3   英語
+0.5秒   4   英語→平仮名
+2  秒   4.5 平仮名
+0.5秒   6.5 平仮名→中国語
+1  秒   7   中国語
+0.5秒   8   中国語→韓国語
+1  秒   8.5 韓国語
+0.5秒   9.5 韓国語→日本語
+       10
+*/
+
+@keyframes nextsta-ja {
+   0% { opacity: 1; transform: rotateX(0); }
+  25% { opacity: 1; transform: rotateX(0); }
+  30% { opacity: 0; transform: translate3d(0, 1.5rem, -1.5rem) rotateX(-90deg); }
+  95% { opacity: 0; transform: translate3d(0, -1.5rem, -1.5rem) rotateX(90deg); }
+  100%{ opacity: 1; transform: rotateX(0); }
+}
+#next-sta-ja {
+  animation: nextsta-ja linear 10s infinite;
+}
+
+@keyframes nextsta-en {
+   0% { opacity: 0; transform: translate3d(0, -1.5rem, -1.5rem) rotateX(90deg); }
+  25% { opacity: 0; transform: translate3d(0, -1.5rem, -1.5rem) rotateX(90deg); }
+  30% { opacity: 1; transform: rotateX(0); }
+  40% { opacity: 1; transform: rotateX(0); }
+  45% { opacity: 0; transform: translate3d(0, 1.5rem, -1.5rem) rotateX(-90deg); }
+  100%{ opacity: 0; transform: translate3d(0, 1.5rem, -1.5rem) rotateX(-90deg); }
+}
+#next-sta-en {
+  animation: nextsta-en linear 10s infinite;
+}
+
+@keyframes nextsta-kt {
+   0% { opacity: 0; transform: translate3d(0, -1.5rem, -1.5rem) rotateX(90deg); }
+  40% { opacity: 0; transform: translate3d(0, -1.5rem, -1.5rem) rotateX(90deg); }
+  45% { opacity: 1; transform: rotateX(0); }
+  65% { opacity: 1; transform: rotateX(0); }
+  70% { opacity: 0; transform: translate3d(0, 1.5rem, -1.5rem) rotateX(-90deg); }
+  100%{ opacity: 0; transform: translate3d(0, 1.5rem, -1.5rem) rotateX(-90deg); }
+}
+#next-sta-kt {
+  animation: nextsta-kt linear 10s infinite;
+}
+
+@keyframes nextsta-zh {
+  0% { opacity: 0; transform: translate3d(0, -1.5rem, -1.5rem) rotateX(90deg); }
+ 65% { opacity: 0; transform: translate3d(0, -1.5rem, -1.5rem) rotateX(90deg); }
+ 70% { opacity: 1; transform: rotateX(0); }
+ 80% { opacity: 1; transform: rotateX(0); }
+ 85% { opacity: 0; transform: translate3d(0, 1.5rem, -1.5rem) rotateX(-90deg); }
+ 100%{ opacity: 0; transform: translate3d(0, 1.5rem, -1.5rem) rotateX(-90deg); }
+}
+#next-sta-zh {
+  animation: nextsta-zh linear 10s infinite;
+}
+
+@keyframes nextsta-ko {
+  0% { opacity: 0; transform: translate3d(0, -1.5rem, -1.5rem) rotateX(90deg); }
+ 80% { opacity: 0; transform: translate3d(0, -1.5rem, -1.5rem) rotateX(90deg); }
+ 85% { opacity: 1; transform: rotateX(0); }
+ 95% { opacity: 1; transform: rotateX(0); }
+ 100%{ opacity: 0; transform: translate3d(0, 1.5rem, -1.5rem) rotateX(-90deg); }
+}
+#next-sta-ko {
+  animation: nextsta-ko linear 10s infinite;
+}
+
+@keyframes nextstr-ja {
+  0% { opacity: 1; }
+ 25% { opacity: 1; }
+ 30% { opacity: 0; }
+ 95% { opacity: 0; }
+ 100%{ opacity: 1; }
+}
+#next-str-ja, #dest-ja, #subname-ja, #carinfo-ja {
+  animation: nextstr-ja linear 10s infinite;
+}
+
+@keyframes nextstr-en {
+   0% { opacity: 0; }
+  25% { opacity: 0; }
+  30% { opacity: 1; }
+  40% { opacity: 1; }
+  45% { opacity: 0; }
+  100%{ opacity: 0; }
+}
+#next-str-en, #dest-en, #carinfo-en {
+  animation: nextstr-en linear 10s infinite;
+}
+
+@keyframes nextstr-kt {
+   0% { opacity: 0; }
+  40% { opacity: 0; }
+  45% { opacity: 1; }
+  65% { opacity: 1; }
+  70% { opacity: 0; }
+  100%{ opacity: 0; }
+}
+#next-str-kt, #dest-kt, #subname-kt, #carinfo-kt {
+  animation: nextstr-kt linear 10s infinite;
+}
+
+@keyframes nextstr-zh {
+  0% { opacity: 0; }
+ 65% { opacity: 0; }
+ 70% { opacity: 1; }
+ 80% { opacity: 1; }
+ 85% { opacity: 0; }
+ 100%{ opacity: 0; }
+}
+#next-str-zh, #dest-zh, #carinfo-zh {
+  animation: nextstr-zh linear 10s infinite;
+}
+
+@keyframes nextstr-ko {
+  0% { opacity: 0; }
+ 80% { opacity: 0; }
+ 85% { opacity: 1; }
+ 95% { opacity: 1; }
+ 100%{ opacity: 0; }
+}
+#next-str-ko, #dest-ko, #carinfo-ko {
+  animation: nextstr-ko linear 10s infinite;
+}
+
+@keyframes arrow-red-anm {
+  0% { opacity: 1; }
+  50% { opacity: 1; }
+  51% { opacity: 0; }
+  100% { opacity: 0; }
+}
+.arrow-red {
+  animation: arrow-red-anm linear 1.5s infinite;
+}
+
+@keyframes line-en {
+  0%  { opacity: 1; }
+  32.9% { opacity: 1; }
+  33% { opacity: 0; }
+  100%{ opacity: 0; }
+}
+.station-en {
+  animation: line-en linear 30s infinite;
+}
+
+@keyframes line-zh {
+  0%  { opacity: 0; }
+  32.9% { opacity: 0; }
+  33% { opacity: 1; }
+  65.9% { opacity: 1; }
+  66% { opacity: 0; }
+  100%{ opacity: 0; }
+}
+.station-zh {
+  animation: line-zh linear 30s infinite;
+}
+
+@keyframes line-ko {
+  0%  { opacity: 0; }
+  65.9% { opacity: 0; }
+  66% { opacity: 1; }
+  100%{ opacity: 1; }
+}
+.station-ko {
+  animation: line-ko linear 30s infinite;
+}

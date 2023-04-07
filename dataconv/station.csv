@@ -1,0 +1,235 @@
+000											無表示
+001	谷上	たにがみ	Tanigami	谷上	타니가미	S01			Hokushin		谷上
+002	新神戸	しんこうべ	Shin-Kobe	新神户	신코베	S02	神戸ファッション専門学校前	こうべふぁっしょんせんもんがっこうまえ	SeishinYamate		新神戸
+003	三宮	さんのみや	Sannomiya	三宫	산노미야	S03	神戸サウナ＆スパ前	こうべさうなあんどすぱまえ	SeishinYamate		地下鉄三宮
+004	県庁前	けんちょうまえ	Kenchomae	县厅前	켄초마에	S04	パルモア病院前	ぱるもあびょういんまえ	SeishinYamate		県庁前
+005	大倉山	おおくらやま	Okurayama	大仓山	오쿠라야마	S05			SeishinYamate		大倉山
+006	湊川公園	みなとがわこうえん	Minatogawakoen	凑川公园	미나토가와코엔	S06	川崎病院前	かわさきびょういんまえ	SeishinYamate		湊川公園
+007	上沢	かみさわ	Kamisawa	上泽	카미사와	S07			SeishinYamate		上沢
+008	長田	ながた	Nagata	长田	나가타	S08			SeishinYamate		長田
+009	新長田	しんながた	Shin-Nagata	新长田	신나가타	S09	神戸常盤大学前	こうべときわだいがくまえ	SeishinYamate		新長田
+010	板宿	いたやど	Itayado	板宿	이타야도	S10	滝川中学校・高等学校前	たきがわちゅうがっこう・こうとうがっこうまえ	SeishinYamate		板宿
+011	妙法寺	みょうほうじ	Myohoji	妙法寺	묘호지	S11	神戸星城高等学校前	こうえせいじょうこうとうがっこうまえ	SeishinYamate		妙法寺
+012	名谷	みょうだに	Myodani	名谷	묘다니	S12	須磨パティオ前	すまぱてぃおまえ	SeishinYamate		名谷
+013	総合運動公園	そうごううんどうこうえん	Sogoundokoen	綜合运动公园	소고우운도우코엔	S13			SeishinYamate	総合　　<br>運動公園	総合運動公園
+014	学園都市	がくえんとし	Gakuentoshi	学园都市	가쿠엔토시	S14	たがみ眼科医院前	たがみがんかいいんまえ	SeishinYamate		学園都市
+015	伊川谷	いかわだに	Ikawadani	伊川谷	이카와다니	S15	落合眼科医院前	おちあいがんかいいんまえ	SeishinYamate		伊川谷
+016	西神南	せいしんみなみ	Seishin-Minami	西神南	세이신미나미	S16	なでしこレディースホスピタル前	なでしこれでぃーすほすぴたるまえ	SeishinYamate		西神南
+017	西神中央	せいしんちゅうおう	Seishin-Chuo	西神中央	세이신추오	S17			SeishinYamate		西神中央
+101	大阪梅田	おおさかうめだ	Osaka-umeda	大阪梅田	오사카우메다	HK01			HankyuKobe		神戸線大阪梅田
+102	中津	なかつ	Nakatsu	中津	나카쓰	HK02			HankyuKobe		神戸線中津
+103	十三	じゅうそう	Juso	十三	주소	HK03			HankyuKobe		神戸線十三
+104	神崎川	かんざきがわ	Kanzaki-gawa	神崎川	칸자키가와	HK04			HankyuKobe		神崎川
+105	園田	そのだ	Sonoda	园田	소노다	HK05			HankyuKobe		園田
+106	塚口	つかぐち	Tsukaguchi	塚口	쓰카구치	HK06			HankyuKobe		塚口
+107	武庫之荘	むこのそう	Mukonoso	武库之庄	무코노소	HK07			HankyuKobe		武庫之荘
+108	西宮北口	にしのみやきたぐち	Nishinomiya-kitaguchi	西宫北口	니시노미야키타구치	HK08	阪急西宮ガーデンズ前	はんきゅうにしのみやがーでんずまえ	HankyuKobe		西宮北口
+109	夙川	しゅくがわ	Shukugawa	夙川	슈쿠가와	HK09			HankyuKobe		夙川
+110	芦屋川	あしや	Ashiya-gawa	芦屋川	아시야가와	HK10			HankyuKobe		芦屋川
+111	岡本	おかもと	Okamoto	冈本	오카모토	HK11			HankyuKobe		岡本
+112	御影	みかげ	Mikage	御影	미카게	HK12			HankyuKobe		阪急線御影
+113	六甲	ろっこう	Rokko	六甲	롯코	HK13			HankyuKobe		六甲
+114	王子公園	おうじこうえん	Oji-koen	王子公园	오지코엔	HK14	王子動物園・王子スタジアム前	おうじどうぶつえん・おうじすたじあむまえ	HankyuKobe		王子公園
+115	春日野道	かすがのみち	Kasuganomichi	春日野道	카수가노미치	HK15			HankyuKobe		阪急線春日野道
+116	神戸三宮	こうべさんのみや	Kobe-sannomiya	神户三宫	코베산노미야	HK16			HankyuKobe		阪急線神戸三宮
+117	花隈	はなくま	Hanakuma	花隈	나쿠마	HK17			HankyuKobe		花隈
+118	稲野	いなの	Inano	稻野	이나노	HK18			HankyuKobe		稲野
+119	新伊丹	しんいたみ	Shin-itami	新伊丹	신이타미	HK19			HankyuKobe		新伊丹
+120	伊丹	いたみ	Itami	伊丹	이타미	HK20			HankyuKobe		伊丹
+121	今津	いまづ	Imazu	今津	이마주	HK21			HankyuKobe		今津
+122	阪神国道	はんしんこくどう	Hanshin-kokudo	阪神国道	한신코쿠도우	HK22			HankyuKobe		阪神国道
+123	門戸厄神	もんどやくじん	Mondo-yakujin	门户厄神	몬도야쿠진	HK23			HankyuKobe		門戸厄神
+124	甲東園	こうとうえん	Kotoen	甲东园	코토엔	HK24			HankyuKobe		甲東園
+125	仁川	にがわ	Nigawa	仁川	니가와	HK25	阪神競馬場前	はんしんけいばじょうまえ	HankyuKobe		仁川
+126	小林	おばやし	Obayashi	小林	오바야시	HK26			HankyuKobe		小林
+127	逆瀬川	さかせがわ	Sakasegawa	逆瀬川	사카세가와	HK27			HankyuKobe		逆瀬川
+128	宝塚南口	たからづかみなみぐち	Takarazuka-minamiguchi	宝塚南口	타카라주카미나미구치	HK28			HankyuKobe		宝塚南口
+129	苦楽園口	くらくえんぐち	Kurakuenguchi	苦乐园口	쿠라쿠엔구치	HK29			HankyuKobe		苦楽園口
+130	甲陽園	こうようえん	Koyoen	甲阳园	코요엔	HK30			HankyuKobe		甲陽園
+131	宝塚	たからづか	Takarazuka	宝塚	타카라주카	HK56	宝塚大劇場・宝塚ホテル前	たからづかだいげきじょう・たからづかほてるまえ	HankyuKobe		神戸線宝塚
+151	大阪梅田	おおさかうめだ	Osaka-umeda	大阪梅田	오사카우메다	HK01			HankyuTakarazuka		宝塚線大阪梅田
+152	中津	なかつ	Nakatsu	中津	나카쓰	HK02			HankyuTakarazuka		宝塚線中津
+153	十三	じゅうそう	Juso	十三	주소	HK03			HankyuTakarazuka		宝塚線十三
+154	三国	みくに	Mikuni	三国	미쿠니	HK41			HankyuTakarazuka		三国
+155	庄内	しょうない	Shonai	庄内	쇼나이	HK42			HankyuTakarazuka		庄内
+156	服部天神	はっとりてんじん	Hattori-tenjin	服部天神	핫토리텐진	HK43			HankyuTakarazuka		服部天神
+157	曽根	そね	Sone	曾根	소네	HK44			HankyuTakarazuka		曽根
+158	岡町	おかまち	Okamachi	冈町	오카마치	HK45			HankyuTakarazuka		岡町
+159	豊中	とよなか	Toyonaka	丰中	토요나카	HK46			HankyuTakarazuka		豊中
+160	蛍池	ほたるがいけ	Hotarugaike	萤池	호타루가이케	HK47			HankyuTakarazuka		蛍池
+161	石橋阪大前	いしばしはんだいまえ	Ishibashi handai-mae	石桥阪大前	이시바시한다이마에	HK48			HankyuTakarazuka	石橋　　<br>阪大前	石橋阪大前
+162	池田	いけだ	Ikeda	池田	이케다	HK49			HankyuTakarazuka		池田
+163	川西能勢口	かわにしのせぐち	Kawanishi-noseguchi	川西能势口	카와니시노세구치	HK50			HankyuTakarazuka	川西　　<br>能勢口	宝塚線川西能勢口
+164	雲雀丘花屋敷	ひばりがおかはなやしき	Hibarigaoka-hanayashiki	云雀丘花屋敷	히바리가오카하나야시키	HK51			HankyuTakarazuka	雲雀丘　<br>花屋敷	雲雀丘花屋敷
+165	山本	やまもと	Yamamoto	山本	야마모토	HK52	平井	ひらい	HankyuTakarazuka		山本
+166	中山観音	なかやまかんのん	Nakayama-kannon	中山观音	나카야마칸논	HK53			HankyuTakarazuka		中山観音
+167	売布神社	めふじんじゃ	Mefujinja	卖布神社	메후진자	HK54			HankyuTakarazuka		売布神社
+168	清荒神	きよしこうじん	Kiyoshikojin	清荒神	키요시코진	HK55			HankyuTakarazuka		清荒神
+169	宝塚	たからづか	Takarazuka	宝塚	타카라주카	HK56	宝塚大劇場・宝塚ホテル前	たからづかだいげきじょう・たからづかほてるまえ	HankyuTakarazuka		宝塚線宝塚
+170	桜井	さくらい	Sakurai	樱井	사쿠라이	HK57			HankyuTakarazuka		桜井
+171	牧落	まきおち	Makiochi	牧落	마키오치	HK58			HankyuTakarazuka		牧落
+172	箕面	みのお	Mino	箕面	미노오	HK59			HankyuTakarazuka		箕面
+181	川西能勢口	かわにしのせぐち	Kawanishi-noseguchi	川西能势口	카와니시노세구치	NS01			Nose	<span style="display: inline-block; transform: scaleY(calc(5 / 6));  transform-origin: top;">川西能勢口</span>	能勢電川西能勢口
+182	絹延橋	きぬのべばし	Kinunobebashi	绢延桥	키누노베바시	NS02			Nose		絹延橋
+183	滝山	たきやま	Takiyama	滝山	타키야마	NS03			Nose		滝山
+184	鶯の森	うぐいすのもり	uguisunomori	莺之森	우구이수노모리	NS04			Nose		鶯の森
+185	鼓滝	つづみがたき	Tsuzumigataki	鼓滝	쓰주미가타키	NS05			Nose		鼓滝
+186	多田	ただ	Tada	多田	타다	NS06			Nose		多田
+187	平野	ひらの	Hirano	平野	히라노	NS07			Nose		平野
+188	一の鳥居	いちのとりい	Ichinotorii	一鸟居	이치노토리이	NS08			Nose		一の鳥居
+189	畦野	うねの	Uneno	畦野	우네노	NS09			Nose		畦野
+190	山下	やました	Yamashita	山下	야마시타	NS10			Nose		山下
+191	笹部	ささべ	Sasabe	笹部	사사베	NS11			Nose		笹部
+192	光風台	こうふうだい	Kofudai	光风台	코후다이	NS12			Nose		光風台
+193	ときわ台	ときわだい	Tokiwadai	常盘台	토키와다이	NS13			Nose		ときわ台
+194	妙見口	みょうけんぐち	Myokenguchi	妙见口	묘켄구치	NS14			Nose		妙見口
+195	日生中央	にっせいちゅうおう	Nissei-chuo	日生中央	닛세이추오	NS21			Nose		日生中央
+201	大阪梅田	おおさかうめだ	Osaka-umeda	大阪梅田	오사카우메다	HK01			HankyuKyoto		京都線大阪梅田
+202	十三	じゅうそう	Juso	十三	주소	HK03			HankyuKyoto		京都線十三
+203	南方	みなみがた	Minamigata	南方	미나미가타	HK61			HankyuKyoto		南方
+204	崇禅寺	そうぜんじ	Sozenji	崇禅寺	소젠지	HK62			HankyuKyoto		崇禅寺
+205	淡路	あわじ	Awaji	淡路	아와지	HK63			HankyuKyoto		淡路
+206	上新庄	かみしんじょう	Kami-shinjo	上新庄	카미신조	HK64			HankyuKyoto		上新庄
+207	相川	あいかわ	Aikawa	相川	아이카와	HK65			HankyuKyoto		相川
+208	正雀	しょうじゃく	Shojaku	正雀	쇼자쿠	HK66			HankyuKyoto		正雀
+209	摂津市	せっつし	Settsu-shi	摄津市	셋쓰시	HK67			HankyuKyoto		摂津市
+210	南茨木	みなみいばらき	Minami-Ibaraki	南茨木	미나미이바라키	HK68			HankyuKyoto		南茨木
+211	茨木市	いばらきし	Ibaraki-shi	茨木市	이바라키시	HK69			HankyuKyoto		茨木市
+212	総持寺	そうじじ	Sojiji	总持寺	소지지	HK70			HankyuKyoto		総持寺
+213	富田	とんだ	Tonda	富田	톤다	HK71			HankyuKyoto		富田
+214	高槻市	たかつきし	Takatsuki-shi	高槻市	타카쓰키시	HK72			HankyuKyoto		高槻市
+215	上牧	かんまき	Kanmaki	上牧	칸마키	HK73			HankyuKyoto		上牧
+216	水無瀬	みなせ	Minase	水无瀬	미나세	HK74			HankyuKyoto		水無瀬
+217	大山崎	おおやまざき	Oyamazaki	大山崎	오야마자키	HK75			HankyuKyoto		大山崎
+218	西山天王山	にしやまてんのうざん	Nishiyama-tennozan	西山天王山	니시야마텐노잔	HK76			HankyuKyoto	西山　　<br>天王山	西山天王山
+219	長岡天神	ながおかてんじん	nagaoka-tenjin	长冈天神	나가오카텐진	HK77			HankyuKyoto		長岡天神
+220	西向日	にしむこう	Nishi-muko	西向日	니시무코	HK78			HankyuKyoto		西向日
+221	東向日	ひがしむこう	Higashi-muko	东向日	히가시무코	HK79			HankyuKyoto		東向日
+222	洛西口	らくさいぐち	Rakusaiguchi	洛西口	라쿠사이구치	HK80			HankyuKyoto		洛西口
+223	桂	かつら	Katsura	桂	카쓰라	HK81			HankyuKyoto		桂
+224	西京極	にしきょうごく	Nishikyogoku	西京极	니시쿄고쿠	HK82	西京極総合運動公園前	にしきょうごくそうごううんどうこうえんまえ	HankyuKyoto		西京極
+225	西院	さいいん	Saiin	西院	사이인	HK83			HankyuKyoto		西院
+226	大宮	おおみや	Omiya	大宫	오오미야	HK84			HankyuKyoto		大宮
+227	烏丸	からすま	Karasuma	乌丸	카라수마	HK85			HankyuKyoto		烏丸
+228	京都河原町	きょうとかわらまち	Kyoto-Kawaramachi	京都河原町	쿄토카와라마치	HK86			HankyuKyoto	京都　　<br>河原町	京都河原町
+229	柴島	くにじま	Kunijima	柴岛	쿠니지마	HK87			HankyuKyoto		柴島
+230	下新庄	しもしんじょう	Shimo-shinjo	下新庄	시모신조	HK88			HankyuKyoto		下新庄
+231	吹田	すいた	Suita	吹田	수이타	HK89			HankyuKyoto		吹田
+232	豊津	とよつ	Toyotsu	丰津	토요쓰	HK90			HankyuKyoto		豊津
+233	関大前	かんだいまえ	Kandai-mae	关大前	칸다이마에	HK91			HankyuKyoto		関大前
+234	千里山	せんりやま	Senriyama	千里山	센리야마	HK92			HankyuKyoto		千里山
+235	南千里	みなみせんり	Minami-senri	南千里	미나미센리	HK93			HankyuKyoto		南千里
+236	山田	やまだ	Yamada	山田	야마다	HK94			HankyuKyoto		山田
+237	北千里	きたせんり	Kita-senri	北千里	키타센리	HK95			HankyuKyoto		北千里
+238	上桂	かみかつら	Kami-katsura	上桂	카미카쓰라	HK96			HankyuKyoto		上桂
+239	松尾大社	まつおたいしゃ	Matsuo-taisha	松尾大社	마쓰오타이샤	HK97			HankyuKyoto		松尾大社
+240	嵐山	あらしやま	Arashiyama	嵐山	아라시야마	HK98	嵯峨野	さがの	HankyuKyoto		嵐山
+251	天神橋筋六丁目	てんじんばしすじろくちょうめ	Tenjimbashisuji-rokuchome	天神桥筋六丁目	텐진바시수지로쿠초메	K11			Sakaisuji	天神橋筋<br>六丁目	天神橋筋六丁目
+252	扇町	おうぎまち	Ogimachi	扇町	오기마치	K12			Sakaisuji		扇町
+253	南森町	みなみもりまち	Minamimorimachi	南森町	미나미모리마치	K13			Sakaisuji		南森町
+254	北浜	きたはま	Kitahama	北浜	키타하마	K14			Sakaisuji		北浜
+255	堺筋本町	さかいすじほんまち	Sakaisuji-Hommachi	堺筋本町	사카이수지혼마치	K15	船場東	せんばひがし	Sakaisuji		堺筋本町
+256	長堀橋	ながほりばし	Nagahoribashi	长堀桥	나가호리바시	K16			Sakaisuji		長堀橋
+257	日本橋	にっぽんばし	Nipppombashi	日本桥	닛폰바시	K17			Sakaisuji		日本橋
+258	恵比須町	えびすちょう	Ebisucho	惠比须町	에비수초	K18	日本橋筋	にっぽんばしすじ	Sakaisuji		恵比須町
+259	動物園前	どうぶつえんまえ	Dobutsuen-mae	動物园前	도우부쓰엔마에	K19	新世界	しんせかい	Sakaisuji		動物園前
+260	天下茶屋	てんがちゃや	Tengachaya	天下茶屋	텐가차야	K20			Sakaisuji		天下茶屋
+301	大阪梅田	おおさかうめだ	Osaka-Umeda			HS01			Hanshin		阪神線大阪梅田
+302	福島	ふくしま	Fukushima			HS02			Hanshin		福島
+303	野田	のだ	Noda			HS03			Hanshin		野田
+304	淀川	よどがわ	Yodogawa			HS04			Hanshin		淀川
+305	姫島	ひめじま	Himejima			HS05			Hanshin		姫島
+306	千船	ちぶね	Chibune			HS06			Hanshin		千船
+307	杭瀬	くいせ	Kuise			HS07			Hanshin		杭瀬
+308	大物	だいもつ	Daimotsu			HS08			Hanshin		大物
+309	尼崎	あまがさき	Amagasaki			HS09			Hanshin		尼崎
+310	出屋敷	でやしき	Deyashiki			HS10			Hanshin		出屋敷
+311	尼崎センタープール前	あまがさきせんたーぷーるまえ	Amagasaki-Centerpool-Mae			HS11			Hanshin		尼崎センタープール前
+312	武庫川	むこがわ	Mukogawa			HS12			Hanshin		武庫川
+313	鳴尾・武庫川女子大前	なるお・むこがわじょしだいまえ	Naruo・Mukogawajoshidai-Mae			HS13			Hanshin		鳴尾・武庫川女子大前
+314	甲子園	こうしえん	Koshien			HS14			Hanshin		甲子園
+315	久寿川	くすがわ	Kusugawa			HS15			Hanshin		久寿川
+316	今津	いまづ	Imazu			HS16			Hanshin		阪神線今津
+317	西宮	にしのみや	Nishinomiya			HS17			Hanshin		西宮
+318	香櫨園	こうろえん	Koroen			HS18			Hanshin		香櫨園
+319	打出	うちで	Uchide			HS19			Hanshin		打出
+320	芦屋	あしや	Ashiya			HS20			Hanshin		芦屋
+321	深江	ふかえ	Fukae			HS21			Hanshin		深江
+322	青木	おおぎ	Ogi			HS22			Hanshin		青木
+323	魚崎	うおざき	Uozaki			HS23			Hanshin		魚崎
+324	住吉	すみよし	Sumiyoshi			HS24			Hanshin		住吉
+325	御影	みかげ	Mikage			HS25			Hanshin		阪神線御影
+326	石屋川	いしやがわ	Ishiyagawa			HS26			Hanshin		石屋川
+327	新在家	しんざいけ	Shinzaike			HS27			Hanshin		新在家
+328	大石	おおいし	Oishi			HS28			Hanshin		大石
+329	西灘	にしなだ	Nishinada			HS29			Hanshin		西灘
+330	岩屋	いわや	Iwaya			HS30			Hanshin		岩屋
+331	春日野道	かすがのみち	Kasuganomichi			HS31			Hanshin		阪神線春日野道
+332	神戸三宮	こうべさんのみや	Kobe-Sannomiya			HS32			Hanshin		阪神線神戸三宮
+333	元町	もとまち	Motomachi			HS33			Hanshin		元町
+334	西元町	にしもとまち	Nishi-Motomachi			HS34					西元町
+335	高速神戸	こうそくこうべ	Kosoku-Kobe			HS35					高速神戸
+336	新開地	しんかいち	Shinkaichi			HS36					新開地
+337	大開	だいかい	Daikai			HS37					大開
+338	高速長田	こうそくながた	Kosoku-Nagata			HS38					高速長田
+341	大阪難波	おおさかなんば	Osaka-Namba			HS41			Hanshin		阪神線大阪難波
+342	桜川	さくらがわ	Sakuragawa			HS42			Hanshin		桜川
+343	ドーム前	どーむまえ	Domu-Mae			HS43			Hanshin		ドーム前
+344	九条	くじょう	Kujo			HS44			Hanshin		九条
+345	西九条	にしくじょう	Nishikujo			HS45			Hanshin		西九条
+346	千鳥橋	ちどりばし	Chidoribashi			HS46			Hanshin		千鳥橋
+347	伝法	でんぽう	Dempo			HS47			Hanshin		伝法
+348	福	ふく	Fukushima			HS48			Hanshin		福
+349	出来島	できじま	Dekijima			HS49			Hanshin		出来島
+351	東鳴尾	ひがしなるお	Higashi-Naruo			HS51			Hanshin		東鳴尾
+352	洲先	すざき	Suzaki			HS52			Hanshin		洲先
+353	武庫川団地前	むこがわだんちまえ	Mukogawadanchi-Mae			HS53			Hanshin		武庫川団地前
+401	西代	にしだい	Nishidai			SY01			Sanyo		西代
+402	板宿	いたやど	Itayado			SY02			Sanyo		板宿
+403	東須磨	ひがしすま	Higashi-suma			SY03			Sanyo		東須磨
+404	月見山	つきみやま	Tsukimiyama			SY04			Sanyo		月見山
+405	須磨寺	すまでら	Sumadera			SY05			Sanyo		須磨寺
+406	山陽須磨	さんようすま	Sanyo-Suma			SY06			Sanyo		山陽須磨
+407	須磨浦公園	すまうらこうえん	Sumaura-koen			SY07			Sanyo		須磨浦公園
+408	山陽塩屋	さんようしおや	Sanyo-Shioya			SY08			Sanyo		山陽塩屋
+409	滝の茶屋	たきのちゃや	Takinochaya			SY09			Sanyo		滝の茶屋
+410	東垂水	ひがしたるみ	Higashi-tarumi			SY10			Sanyo		東垂水
+411	山陽垂水	さんようたるみ	Sanyo-Tarumi			SY11			Sanyo		山陽垂水
+412	霞ヶ丘	かすみがおか	Kasumigaoka			SY12			Sanyo		霞ヶ丘
+413	舞子公園	まいここうえん	Maiko-koen			SY13			Sanyo		舞子公園
+414	西舞子	にしまいこ	Nishi-maiko			SY14			Sanyo		西舞子
+415	大蔵谷	おおくらだに	Okuradani			SY15			Sanyo		大蔵谷
+416	人丸前	ひとまるまえ	Hitomarumae			SY16			Sanyo		人丸前
+417	山陽明石	さんようあかし	Sanyo-Akashi			SY17			Sanyo		山陽明石
+418	西新町	にししんまち	Nishi-shimmachi			SY18			Sanyo		西新町
+419	林崎松江海岸	はやしさきまつえかいがん	Hayashisaki-Matsuekaigan			SY19			Sanyo		林崎松江海岸
+420	藤江	ふじえ	Fujie			SY20			Sanyo		藤江
+421	中八木	なかやぎ	Nakayagi			SY21			Sanyo		中八木
+422	江井ヶ島	えいがしま	Eigashima			SY22			Sanyo		江井ヶ島
+423	西江井ヶ島	にしえいがしま	Nishi-eigashima			SY23			Sanyo		西江井ヶ島
+424	山陽魚住	さんよううおずみ	Sanyo-Uozumi			SY24			Sanyo		山陽魚住
+425	東二見	ひがしふたみ	Higahsi-futami			SY25			Sanyo		東二見
+426	西二見	にしふたみ	Nishi-futami			SY26			Sanyo		西二見
+427	播磨町	はりまちょう	Harimacho			SY27			Sanyo		播磨町
+428	別府	べふ	Befu			SY28			Sanyo		別府
+429	浜の宮	はまのみや	Hamanomiya			SY29			Sanyo		浜の宮
+430	尾上の松	おのえのまつ	Onoenomatsu			SY30			Sanyo		尾上の松
+431	高砂	たかさご	Takasago			SY31			Sanyo		高砂
+432	荒井	あらい	Arai			SY32			Sanyo		荒井
+433	伊保	いほ	Iho			SY33			Sanyo		伊保
+434	山陽曽根	さんようそね	Sanyo-Sone			SY34			Sanyo		山陽曽根
+435	大塩	おおしお	Oshio			SY35			Sanyo		大塩
+436	的形	まとがた	Matogata			SY36			Sanyo		的形
+437	八家	やか	Yaka			SY37			Sanyo		八家
+438	白浜の宮	しらはまのみや	Shirahamanomiya			SY38			Sanyo		白浜の宮
+439	妻鹿	めが	Mega			SY39			Sanyo		妻鹿
+440	飾磨	しかま	Shikama			SY40			Sanyo		飾磨
+441	亀山	かめやま	Kameyama			SY41			Sanyo		亀山
+442	手柄	てがら	Tegara			SY42			Sanyo		手柄
+443	山陽姫路	さんようひめじ	Sanyo-Himeji			SY43			Sanyo		山陽姫路
+451	西飾磨	にししかま	Nishi-shikama			SY51			Sanyo		西飾磨
+452	夢前川	ゆめさきがわ	Yumesakigawa			SY52			Sanyo		夢前川
+453	広畑	ひろはた	Hirohata			SY53			Sanyo		広畑
+454	山陽天満	さんようてんま	Sanyo-Temma			SY54			Sanyo		山陽天満
+455	平松	ひらまつ	Hiramatsu			SY55			Sanyo		平松
+456	山陽網干	さんようあぼし	Sanyo-Aboshi			SY56			Sanyo		山陽網干

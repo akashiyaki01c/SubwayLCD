@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BIZ+UDGothic:wght@400;700&family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Sans+SC:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./form.css">
+    <link rel="stylesheet" href="./upper.css">
+    <link rel="stylesheet" href="./type.css">
+    <link rel="stylesheet" href="./lower.css">
+    <link rel="stylesheet" href="./animation.css">
+    <link rel="stylesheet" href="./6sta.css">
+  </head>
+  <body>
+    <main class="lcd-main">
+      <!-- 上半分 -->
+      <div class="upper-main">
+        <div class="type-dest">
+          <div id="type-outer" class="type-outer non-type">
+            <div id="type" class="type"><!--  --></div>
+          </div>
+          <div id="dest" class="dest"><!--  --></div>
+        </div>
+        <div id="cars-number" class="cars-number en">
+            <span id="cars-number-inner" class="cars-number-inner"></span>
+        </div>
+        <div id="cars-number-info" class="cars-number-info"><!--  --></div>
+        <div id="next-str" class="next-str"><!--  --></div>
+        <div id="nextnumber-outer" class="nextnumber-outer">
+          <span id="next-sta-no" class="nextnumber-inner"></span>
+        </div>
+        <div id="next-sta-name" class="next-sta-name"><!--  --></div>
+        <div id="subname-outer" class="subname-outer">
+            <div id="subname-inner" class="subname-inner"><!--  --></div>
+        </div>
+      </div>
+      <!-- 下半分 -->
+      <div class="lower-main">
+        <div id="sta-6-outer" class="lower-display">
+          <table id="sta-6-main"></table>
+          <div id="sta-6-arrow" class="sta-6-arrow">
+            <div class="arrow">
+              <svg viewBox="0,0,100,100" width="20" height="20">
+                <polygon points="100,50 50,100 0,100 50,50 0,0 50,0" stroke="white" stroke-width="4" stroke-linecap="square" fill="blue" />
+              </svg>
+            </div>
+            <div class="arrow arrow-red">
+              <svg viewBox="0,0,100,100" width="20" height="20">
+                <polygon points="100,50 50,100 0,100 50,50 0,0 50,0" stroke="white" stroke-width="4" stroke-linecap="square" fill="red" />
+              </svg>
+            </div>
+          </div>
+          <div id="sta-6-omit" class="sta-6-omit">
+            <svg viewBox="0,0,100,100" width="20", height="20">
+              
+            </svg>
+          </div>
+        </div>
+      </div>
+      <!-- <img src="../lcd.png" height="360" width="640" style="position: absolute; top: 0; left: 0; opacity: 0.5;">  -->
+    </main>
+    <div class="form">
+      <form class="lcd-form" name="lcdForm">
+        <div style="display: flex; flex-direction: row; column-gap: 10px;">
+          <div>基本設定</div>
+          <div>
+            <label>種別</label><br><input type="text" name="type" value="" style="width: 1em;">
+          </div>
+          <div>
+            <label>行先</label><br><input type="text" name="dest" value="017" style="width: 1.5em;">
+          </div>
+          <div>
+            <label>経由</label><br><input type="text" name="via" value="0" style="width: 1em;">
+          </div>
+          <div>
+            <label>次駅</label><br><input type="text" name="next" value="002" style="width: 1.5em;">
+          </div>
+          <div>
+            <label>位置</label><br><input type="text" name="status" value="1" style="width: 0.5em;">
+          </div>
+          <div>
+            <label>号車</label><br><input type="text" name="cars" value="1" style="width: 0.5em;">
+          </div>
+        </div>
+        <div style="display: flex; flex-direction: row; column-gap: 10px;">
+          <div>6表示設定</div>
+          <table>
+            <tr>
+              <th></th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th>
+            </tr>
+            <tr>
+              <td>次駅表示</td>
+              <td><input type="text" name="next6-0" value="001" style="width: 1.5em;"></td>
+              <td><input type="text" name="next6-1" value="002" style="width: 1.5em;"></td>
+              <td><input type="text" name="next6-2" value="003" style="width: 1.5em;"></td>
+              <td><input type="text" name="next6-3" value="004" style="width: 1.5em;"></td>
+              <td><input type="text" name="next6-4" value="005" style="width: 1.5em;"></td>
+              <td><input type="text" name="next6-5" value="006" style="width: 1.5em;"></td>
+            </tr>
+            <tr>
+              <td>線色(左)</td>
+              <td><input type="text" name="linecolor-left-0" value="01" style="width: 1em;"></td>
+              <td><input type="text" name="linecolor-left-1" value="03" style="width: 1em;"></td>
+              <td><input type="text" name="linecolor-left-2" value="02" style="width: 1em;"></td>
+              <td><input type="text" name="linecolor-left-3" value="02" style="width: 1em;"></td>
+              <td><input type="text" name="linecolor-left-4" value="02" style="width: 1em;"></td>
+              <td><input type="text" name="linecolor-left-5" value="02" style="width: 1em;"></td>
+            </tr>
+            <tr>
+              <td>線色(右)</td>
+              <td><input type="text" name="linecolor-right-0" value="01" style="width: 1em;"></td>
+              <td><input type="text" name="linecolor-right-1" value="02" style="width: 1em;"></td>
+              <td><input type="text" name="linecolor-right-2" value="02" style="width: 1em;"></td>
+              <td><input type="text" name="linecolor-right-3" value="02" style="width: 1em;"></td>
+              <td><input type="text" name="linecolor-right-4" value="02" style="width: 1em;"></td>
+              <td><input type="text" name="linecolor-right-5" value="02" style="width: 1em;"></td>
+            </tr>
+            <tr>
+              <td>線端</td>
+              <td><input type="text" name="linecolor-edge-0" value="1" style="width: 0.5em;"></td>
+              <td><input type="text" name="linecolor-edge-1" value="0" style="width: 0.5em;"></td>
+              <td><input type="text" name="linecolor-edge-2" value="0" style="width: 0.5em;"></td>
+              <td><input type="text" name="linecolor-edge-3" value="0" style="width: 0.5em;"></td>
+              <td><input type="text" name="linecolor-edge-4" value="0" style="width: 0.5em;"></td>
+              <td><input type="text" name="linecolor-edge-5" value="4" style="width: 0.5em;"></td>
+            </tr>
+            <tr>
+              <td>通過</td>
+              <td><input type="checkbox" name="pass-0"></td>
+              <td><input type="checkbox" name="pass-1"></td>
+              <td><input type="checkbox" name="pass-2"></td>
+              <td><input type="checkbox" name="pass-3" checked></td>
+              <td><input type="checkbox" name="pass-4" checked></td>
+              <td><input type="checkbox" name="pass-5"></td>
+            </tr>
+            <tr>
+              <td>所要時間</td>
+              <td><input type="text" name="time-0" style="width: 1em;"></td>
+              <td><input type="text" name="time-1" style="width: 1em;" value="5"></td>
+              <td><input type="text" name="time-2" style="width: 1em;" value="7"></td>
+              <td><input type="text" name="time-3" style="width: 1em;"></td>
+              <td><input type="text" name="time-4" style="width: 1em;"></td>
+              <td><input type="text" name="time-5" style="width: 1em;" value="11"></td>
+            </tr>
+          </table>
+        </div>
+        <div style="display: flex; flex-direction: row; column-gap: 10px;">
+          <div>6表示設定</div>
+          <div>
+            <label>矢印位置</label><br><input type="text" name="arrow" value="2">
+          </div>
+        </div>
+        
+        <div>
+          <input type="button" onclick="sendForm();" value="更新">
+        </div>
+      </form>
+    </div>
+    <div class="tmp">
+      <div id="type-outer-tmp" class="type-outer type-local">
+        <div id="type-tmp" class="type">
+          <div id="type-en-tmp" class="en"></div>
+        </div>
+      </div>
+      <div id="next-sta-name-tmp" class="next-sta-name">
+        <div id="next-sta-name-en-tmp" class="en"></div>
+      </div>
+      <div id="sta-6-name-tmp"></div>
+      <div id="sta-6-name-en-tmp"></div>
+      <div id="sta-6-name-zh-tmp"></div>
+      <div id="sta-6-name-ko-tmp"></div>
+    </div>
+    <div style="font-size: 24px; font-family: 'SHS24';">
+      ふぉんとてすと
+    </div>
+    <script src="./init.js"></script>
+    <script src="./draw.js"></script>
+    <script>
+      function sendForm() {
+        let type = document.lcdForm.type.value != "" ? document.lcdForm.type.value : null;
+        let dest = document.lcdForm.dest.value;
+        let via = document.lcdForm.via.value;
+        let next = document.lcdForm.next.value;
+        let status = document.lcdForm.status.value;
+        let next6 = [];
+        {
+          for (let i = 0; i < 6; i++) {
+            next6.push(document.lcdForm[`next6-${i}`].value);
+          }
+        }
+        let cars = document.lcdForm.cars.value;
+        let linecolor = [];
+        {
+          for (let i = 0; i < 6; i++) {
+            linecolor.push([
+              document.lcdForm[`linecolor-left-${i}`].value,
+              document.lcdForm[`linecolor-left-${i}`].value,
+              document.lcdForm[`linecolor-right-${i}`].value,
+              document.lcdForm[`linecolor-right-${i}`].value,
+              document.lcdForm[`linecolor-edge-${i}`].value,
+            ]);
+          }
+        }
+        let stop = [];
+        {
+          for (let i = 0; i < 6; i++) {
+            stop.push(document.lcdForm[`pass-${i}`].checked === true ? "1": "0");
+          }
+        }
+        let time = [];
+        {
+          for (let i = 0; i < 6; i++) {
+            time.push(document.lcdForm[`time-${i}`].value);
+          }
+        }
+        let arrow = document.lcdForm.arrow.value;
+
+
+        draw.draw6StaLcd(
+          type,
+          dest, via,
+          next,
+          status,
+          next6,
+          cars,
+          linecolor,
+          stop,
+          arrow,
+          time
+        );
+
+        /* {
+          document.getElementById(`sta-6-line-leftedge-0`).classList.remove("line-edge", "line-arrow");
+          draw.drawLine(0, 0, leftedge[0]);
+          switch (leftedge[1]) {
+            case "1": document.getElementById(`sta-6-line-leftedge-0`).classList.add("line-edge"); break;
+            case "3": document.getElementById(`sta-6-line-leftedge-0`).classList.add("line-arrow"); break;
+          }
+        }
+        {
+          document.getElementById(`sta-6-line-rightedge-5`).classList.remove("line-edge", "line-arrow");
+          draw.drawLine(5, 5, rightedge[0]);
+          switch (rightedge[1]) {
+            case "2": document.getElementById(`sta-6-line-rightedge-5`).classList.add("line-edge"); break;
+            case "4": document.getElementById(`sta-6-line-rightedge-5`).classList.add("line-arrow"); break;
+          }
+        } */
+      }
+
+      init();
+      sendForm();
+    </script>
+  </body>
+</html>
