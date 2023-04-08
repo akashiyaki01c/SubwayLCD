@@ -1,8 +1,3 @@
-@font-face {
-	font-family: 'SHS24';
-	src: url(SourceHanSans-Regular-24px.ttf);
-}
-
 :root {
     --subway-color: #008F4B;
     --hokushin-color: #B4532A;
