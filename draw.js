@@ -33,6 +33,10 @@ const draw = {
                     return `<span id="next-sta-no" class="nextnumber-inner nose"><span class="stano-hk-hk en">NS</span><span class="stano-hk-no en">${staNumber.substring(2)}</span></span>`;
                 case "Sakaisuji":
                     return `<span id="next-sta-no" class="nextnumber-inner sakaisuji"><span class="en">${staNumber}</span></span>`;
+                case "Hanshin":
+                    return `<span id="next-sta-no" class="nextnumber-inner hanshin"><span class="stano-hk-hk en">HS</span><span class="stano-hk-no en">${staNumber.substring(2)}</span></span>`;
+                case "Sanyo":
+                    return `<span id="next-sta-no" class="nextnumber-inner sanyo"><span class="stano-hk-hk en">SY</span><span class="stano-hk-no en">${staNumber.substring(2)}</span></span>`;
                 default:
                     return staNumber;
             }

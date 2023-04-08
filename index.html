@@ -232,22 +232,22 @@
           time
         );
 
-        /* {
-          document.getElementById(`sta-6-line-leftedge-0`).classList.remove("line-edge", "line-arrow");
-          draw.drawLine(0, 0, leftedge[0]);
-          switch (leftedge[1]) {
-            case "1": document.getElementById(`sta-6-line-leftedge-0`).classList.add("line-edge"); break;
-            case "3": document.getElementById(`sta-6-line-leftedge-0`).classList.add("line-arrow"); break;
+        {
+          document.getElementById(`sta-6-line-leftedge-0`).classList.remove("none");
+          draw.drawLine(0, 0, linecolor[0][0]);
+          switch (linecolor[0][4]) {
+            case "0": break;
+            default: document.getElementById(`sta-6-line-leftedge-0`).classList.add("none"); break;
           }
         }
         {
-          document.getElementById(`sta-6-line-rightedge-5`).classList.remove("line-edge", "line-arrow");
-          draw.drawLine(5, 5, rightedge[0]);
-          switch (rightedge[1]) {
-            case "2": document.getElementById(`sta-6-line-rightedge-5`).classList.add("line-edge"); break;
-            case "4": document.getElementById(`sta-6-line-rightedge-5`).classList.add("line-arrow"); break;
+          document.getElementById(`sta-6-line-rightedge-5`).classList.remove("none");
+          draw.drawLine(5, 5, linecolor[5][0]);
+          switch (linecolor[5][4]) {
+            case "0": break;
+            default: document.getElementById(`sta-6-line-rightedge-5`).classList.add("none"); break;
           }
-        } */
+        }
       }
 
       init();

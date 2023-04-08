@@ -203,6 +203,27 @@
     font-weight: 500;
     margin: 10px;
 }
+.nextnumber-inner.hanshin {
+    color: var(--hanshin-color);
+    border: 2px solid var(--hanshin-color);
+    border-radius: 50px;
+    box-sizing: border-box;
+    height: 50px;
+    width: 50px;
+    font-weight: 600;
+}
+.nextnumber-inner.sanyo {
+    display: inline-block;
+    background-color: var(--sanyo-color);
+    border: 2px solid var(--sanyo-color);
+    box-sizing: border-box;
+    color: white;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    font-weight: 600;
+}
+
 
 .next-sta-name {
     font-size: 3.6rem;

@@ -6,6 +6,8 @@
     --hk-kyoto-color: #1EB118;
     --nose-color: #377d46;
     --sakaisuji-color: #875440;
+    --hanshin-color: #1f64b1;
+    --sanyo-color: #d0101a;
 }
 
 .lcd-main {
@@ -71,4 +73,8 @@
     bottom: 0;
     writing-mode: vertical-rl;
     font-family: 'Noto Sans KR';
+}
+
+.none {
+    opacity: 0;
 }
